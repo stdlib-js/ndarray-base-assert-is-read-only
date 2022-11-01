@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -16,33 +16,36 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { ndarray } from '@stdlib/types/ndarray';
 
 /**
-* Test whether an ndarray is read-only.
+* Tests whether an ndarray is read-only.
 *
-* @module @stdlib/ndarray-base-assert-is-read-only
+* @param arr - input ndarray
+* @returns boolean indicating whether an ndarray is read-only
 *
 * @example
-* var array = require( '@stdlib/ndarray-array' );
-* var isReadOnly = require( '@stdlib/ndarray-base-assert-is-read-only' );
+* var array = require( `@stdlib/ndarray/array` );
 *
-* var x = array( [ 1, 2, 3, 4 ], {
+* var x = array( [ [ 1, 2 ], [ 3, 4 ] ], {
 *     'readonly': true
 * });
 * var bool = isReadOnly( x );
 * // returns true
 *
-* x = array( [ 1, 2, 3, 4 ] );
+* x = array( [ [ 1, 2 ], [ 3, 4 ] ], {
+*     'readonly': false
+* });
 * bool = isReadOnly( x );
 * // returns false
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function isReadOnly( arr: ndarray ): boolean;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = isReadOnly;
