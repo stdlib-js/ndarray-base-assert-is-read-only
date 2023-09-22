@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-read-only/tags). For example,
+
+```javascript
 import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@v0.1.0-deno/mod.js';
 ```
 
@@ -91,7 +96,7 @@ var bool = isReadOnly( x );
 
 ```javascript
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
-import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@v0.1.0-deno/mod.js';
+import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@deno/mod.js';
 
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ], {
     'readonly': true
