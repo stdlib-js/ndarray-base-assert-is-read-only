@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert-is-read-only",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test if an ndarray is read-only.",
   "license": "Apache-2.0",
   "author": {
