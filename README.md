@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-assert-is-read-only/tags). For example,
+
+```javascript
 import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@v0.2.2-esm/index.mjs';
 ```
 
@@ -96,7 +101,7 @@ var bool = isReadOnly( x );
 <script type="module">
 
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
-import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@v0.2.2-esm/index.mjs';
+import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@esm/index.mjs';
 
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ], {
     'readonly': true
