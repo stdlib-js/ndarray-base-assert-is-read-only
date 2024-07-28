@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-assert-is-read-only",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Test if an ndarray is read-only.",
   "license": "Apache-2.0",
   "author": {
@@ -41,7 +41,7 @@
     "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.1",
+    "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/ndarray-array": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
