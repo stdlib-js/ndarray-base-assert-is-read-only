@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@esm/index.mjs';
+import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@v0.2.3-esm/index.mjs';
 ```
 
 #### isReadOnly( arr )
@@ -96,7 +96,7 @@ var bool = isReadOnly( x );
 <script type="module">
 
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
-import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@esm/index.mjs';
+import isReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-assert-is-read-only@v0.2.3-esm/index.mjs';
 
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ], {
     'readonly': true
